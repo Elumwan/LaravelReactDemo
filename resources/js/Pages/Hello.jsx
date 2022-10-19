@@ -1,6 +1,6 @@
 import { useState } from "react";
 import $ from "jquery";
-
+import {} from "@syncfusion/ej2-react-buttons";
   
 function Hello() {
     const [name, setName] = useState("");
@@ -40,7 +40,7 @@ function Hello() {
                     onChange={(event) => handleChange(event)}
                 />
                 <br />
-                <button onClick={()=>setPrint(true)} type="submit">Submit</button>
+                <button onClick={()=>setPrint(true)} type="submit" cssClass="e-primary">Submit</button>
             </form>
             {
               print?

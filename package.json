@@ -22,6 +22,7 @@
         "vite": "^3.0.0"
     },
     "dependencies": {
+        "@syncfusion/ej2-react-buttons": "^20.3.50",
         "jquery": "^3.6.1"
     }
 }
